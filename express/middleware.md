@@ -90,6 +90,7 @@
    ```
 
 9. Express-session Middleware Init
+
    ```javascript
    app.use(
      session({
@@ -99,6 +100,13 @@
      })
    );
    ```
+
+10. Passport Init
+
+    ```javascript
+    app.use(passport.initialize());
+    app.use(passport.session());
+    ```
 
 ### Example of Using middleware
 
