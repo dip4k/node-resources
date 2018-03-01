@@ -89,7 +89,7 @@
    );
    ```
 
-9. Express-sessoin Middleware Init
+9. Express-session Middleware Init
    ```javascript
    app.use(
      session({
